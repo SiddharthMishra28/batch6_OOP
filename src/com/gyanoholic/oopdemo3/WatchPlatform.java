@@ -1,5 +1,7 @@
 package com.gyanoholic.oopdemo3;
 
+import com.gyanoholic.oopdemo4.Server;
+
 public interface WatchPlatform {
 	
 	/**
@@ -11,4 +13,5 @@ public interface WatchPlatform {
 	 * This method gets the plarform OS versions
 	 */
 	void getWatchOsVersion();
+	
 }
